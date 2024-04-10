@@ -6,12 +6,24 @@
     <title>Using CSS in HTML</title>
     <style>/*This is internal CSS. This is a CSS comment*/
         body{background-color: aliceblue;}
-        h1{color: blue;}
-        p{color: chocolate;}
+        h1{color: blue; font-family: sans-serif; font-size: 300%;}
+        p
+            {
+            color: chocolate;
+            font-family: helvetica;
+            font-size: 100%;
+            border: 2px solid powderblue;
+            padding: 10px;
+            }
+        input{border-color: yellowgreen;
+            border-radius: 20%;
+            background-color: transparent;
+        }
     </style>
 </head>
 <body>
     <h1>Starting CSS</h1>
     <p>In this file, I'll do Inline, Internal, and External CSS.</p>
+    <input type="button" value="Button">
 </body>
 </html>
