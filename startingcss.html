@@ -21,6 +21,10 @@
             border-radius: 20%;
             background-color: transparent;
         }
+        button{border-color: darkcyan;
+            border-radius: 20%;
+            background-color: transparent;
+        }
         img{width: 60px; height: 60px;}
     </style>
 </head>
@@ -31,7 +35,7 @@
     <a href="https://github.com/richardmukukaa" target="_blank" rel="noopener"><input type="button" value="Blank"></a>
     <!--noopener prevents window.opener-->
     <a href="https://github.com/richardmukukaa" target="_parent"><input type="button" value="Parent"></a>
-    <a href="https://github.com/richardmukukaa" target="_top"><input type="button" value="Top"></a>
+    <a href="https://github.com/richardmukukaa" target="_top" title="Go to Richard's Github"><input type="button" value="Top"></a>
     <h2>Absolute and Relative URLs</h2>
     <p><a href="https://github.com/richardmukukaa" target="_blank" rel="noopener">My Github profile</a></p>
     <p><a href="katapa.jpg" target="_blank" rel="noopener">A picture of Katapa</a></p>
@@ -39,5 +43,8 @@
     <a href="https://github.com/richardmukukaa" target="_blank" rel="noopener">
         <img src="katapa.jpg" alt="A picture of Katapa that takes you to my Github profile">
     </a>
+    <p><a href="mailto:richardmucoocar@gmail.com">Send email</a></p>
+    <button onclick="document.location='katapa.jpg'" type="button">Katapa</button>
+
 </body>
 </html>
