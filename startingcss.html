@@ -7,6 +7,7 @@
     <style>/*This is internal CSS. This is a CSS comment*/
         body{background-color: aliceblue;}
         h1{color: blue; font-family: sans-serif; font-size: 300%;}
+        h2{color: blue; font-family: arial; font-size: 170%;}
         p
             {
             color: chocolate;
@@ -20,14 +21,23 @@
             border-radius: 20%;
             background-color: transparent;
         }
+        img{width: 60px; height: 60px;}
     </style>
 </head>
 <body>
     <h1>Starting CSS</h1>
     <p>In this file, I'll do Inline, Internal, and External CSS.</p>
-    <a href="https://google.com" target="_self"><input type="button" value="Self"></a>
-    <a href="https://google.com" target="_blank" rel="noopener"><input type="button" value="Blank"></a>
-    <a href="https://google.com" target="_parent"><input type="button" value="Parent"></a>
-    <a href="https://google.com" target="_top"><input type="button" value="Top"></a>
+    <a href="https://github.com/richardmukukaa" target="_self"><input type="button" value="Self"></a>
+    <a href="https://github.com/richardmukukaa" target="_blank" rel="noopener"><input type="button" value="Blank"></a>
+    <!--noopener prevents window.opener-->
+    <a href="https://github.com/richardmukukaa" target="_parent"><input type="button" value="Parent"></a>
+    <a href="https://github.com/richardmukukaa" target="_top"><input type="button" value="Top"></a>
+    <h2>Absolute and Relative URLs</h2>
+    <p><a href="https://github.com/richardmukukaa" target="_blank" rel="noopener">My Github profile</a></p>
+    <p><a href="katapa.jpg" target="_blank" rel="noopener">A picture of Katapa</a></p>
+
+    <a href="https://github.com/richardmukukaa" target="_blank" rel="noopener">
+        <img src="katapa.jpg" alt="A picture of Katapa that takes you to my Github profile">
+    </a>
 </body>
 </html>
