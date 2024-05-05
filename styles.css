@@ -14,3 +14,9 @@ th, td{
     border-collapse: collapse;
     background-color: aqua;
 }
+#rowtwo{
+    height: 200px;
+}
+#main{
+    width: 60%;
+}
