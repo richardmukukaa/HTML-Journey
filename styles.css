@@ -1,6 +1,7 @@
 body{
     background-color: aliceblue;
     color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 table{
     border: 3px solid white;
@@ -20,4 +21,9 @@ th, td{
 }
 #main{
     width: 60%;
+}
+th:hover, td:hover{
+    background-color: cornflowerblue;
+    color:aliceblue;
+    font-size: larger;
 }
