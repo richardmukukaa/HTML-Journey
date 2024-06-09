@@ -30,3 +30,8 @@ th:hover, td:hover{
     color:aliceblue;
     font-size: larger;
 }
+
+#divone{
+    background-color: aquamarine;
+    padding: 20px;
+}
