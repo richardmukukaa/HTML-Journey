@@ -35,3 +35,6 @@ th:hover, td:hover{
     background-color: aquamarine;
     padding: 20px;
 }
+.pspan{
+    color: red;
+}
