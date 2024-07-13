@@ -50,3 +50,12 @@ th:hover, td:hover{
 .pspan{
     color: red;
 }
+
+.city {
+    background-color: darkseagreen;
+    border-radius: 20px;
+    color: black;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
